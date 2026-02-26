@@ -1,0 +1,102 @@
+{
+    "tasks": [
+        "classification",
+        "hand_landmarks"
+    ],
+    "audio": {
+        "config": {
+            "sampling_rate": 48000,
+            "n_channels": 1,
+            "channels_of_interest": [],
+            "signal": "FMCW",
+            "tx_file": [
+                "fmcw18000_b3000_l600_s48k.wav"
+            ],
+            "frame_length": 600,
+            "sample_depth": 16,
+            "bandpass_range": [
+                [
+                    18000,
+                    21000
+                ]
+            ]
+        },
+        "files": [
+            "audio001.raw",
+            "audio002.raw"
+        ],
+        "syncing_poses": [
+            269,
+            249
+        ]
+    },
+    "ground_truth": {
+        "files": [
+            "record_20250402_160309_758636_records.txt",
+            "record_20250402_161006_092267_records.txt"
+        ],
+        "syncing_poses": [
+            41,
+            36
+        ],
+        "anchor_length": 80,
+        "videos": [
+            "record_20250402_160309_758636.mp4",
+            "record_20250402_161006_092267.mp4"
+        ]
+    },
+    "sessions": [
+        [
+            {
+                "start": 1743577399.7747,
+                "duration": 20.155916929244995
+            },
+            {
+                "start": 1743577419.920619,
+                "duration": 20.218589067459106
+            },
+            {
+                "start": 1743577442.133179,
+                "duration": 40.33243918418884
+            },
+            {
+                "start": 1743577482.45562,
+                "duration": 40.36594200134277
+            },
+            {
+                "start": 1743577524.836735,
+                "duration": 16.154561042785645
+            },
+            {
+                "start": 1743577540.981298,
+                "duration": 8.015928030014038
+            }
+        ],
+        [
+            {
+                "start": 1743577816.130496,
+                "duration": 20.195513010025024
+            },
+            {
+                "start": 1743577836.316011,
+                "duration": 20.15064787864685
+            },
+            {
+                "start": 1743577858.496104,
+                "duration": 40.29123902320862
+            },
+            {
+                "start": 1743577898.777345,
+                "duration": 40.32965612411499
+            },
+            {
+                "start": 1743577941.103644,
+                "duration": 16.078654050827026
+            },
+            {
+                "start": 1743577957.1723,
+                "duration": 8.015668869018555
+            }
+        ]
+    ]
+}
