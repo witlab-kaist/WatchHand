@@ -1,0 +1,63 @@
+{
+    "tasks": [
+        "classification",
+        "hand_landmarks"
+    ],
+    "audio": {
+        "config": {
+            "sampling_rate": 48000,
+            "n_channels": 1,
+            "channels_of_interest": [],
+            "signal": "FMCW",
+            "tx_file": [
+                "fmcw18000_b3000_l600_s48k.wav"
+            ],
+            "frame_length": 600,
+            "sample_depth": 16,
+            "bandpass_range": [
+                [
+                    18000,
+                    21000
+                ]
+            ]
+        },
+        "files": [
+            "audio001.raw"
+        ],
+        "syncing_poses": [
+            257
+        ]
+    },
+    "ground_truth": {
+        "files": [
+            "record_20250724_182616_527153_records.txt"
+        ],
+        "syncing_poses": [
+            34
+        ],
+        "anchor_length": 72,
+        "videos": [
+            "record_20250724_182616_527153.mp4"
+        ]
+    },
+    "sessions": [
+        [
+            {
+                "start": 1753395986.556171,
+                "duration": 25.35670304298401
+            },
+            {
+                "start": 1753396011.9028769,
+                "duration": 25.1846981048584
+            },
+            {
+                "start": 1753396039.618145,
+                "duration": 50.534056186676025
+            },
+            {
+                "start": 1753396090.1422029,
+                "duration": 50.30544710159302
+            }
+        ]
+    ]
+}
